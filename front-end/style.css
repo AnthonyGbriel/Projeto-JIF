@@ -1,0 +1,132 @@
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: sans-serif;
+  background: #f5f5f5;
+  min-height: 100vh; }
+
+.centro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.cartao {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.cartao h1 { 
+    text-align: center; 
+    margin-bottom: 1.5rem;
+     color: #333;
+     }
+.cartao label {
+     display: block;
+      margin-bottom: .5rem;
+       font-weight: 500;
+        color: #555;
+     }
+.cartao input { 
+  width: 100%;
+  padding: .75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+    }
+.cartao input:focus { 
+  outline: none;
+  border-color: #0066cc;
+  box-shadow: 0 0 0 3px rgba(0,102,204,.2);
+     }
+.cartao button {
+  width: 100%;
+  padding: .75rem;
+  background: #0066cc; 
+  color: white;
+  border: none;
+  border-radius: 4px; font-size: 1rem;
+  font-weight: 600; cursor: pointer; }
+
+.cartao button:hover { background: #0052a3; }
+
+.link-centro { 
+  text-align: center;
+  margin-top: 1.5rem;
+  color: #666;
+  font-size: .9rem;
+     }
+.link-centro a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 500; }
+.link-centro a:hover { 
+    text-decoration: underline;
+ }
+
+.com-sidebar {
+  display: flex;
+  min-height: 100vh; 
+    }
+
+.menu-lateral {
+  width: 260px;
+  background: #2c3e50;
+  color: white;
+  position: fixed;
+  height: 100vh;
+  left: 0; top: 0;
+}
+
+.menu-lateral h2 { 
+  padding: 1.5rem 1rem;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+ }
+
+.menu-lateral a {
+  display: block;
+  padding: .9rem 1.5rem;
+  color: rgba(255,255,255,.8);
+  text-decoration: none;
+  border-left: 3px solid transparent;
+}
+.menu-lateral a:hover { 
+  background: rgba(255,255,255,.1);   
+  color: white; 
+  border-left-color: #3498db;
+}
+
+.menu-lateral a.sair { 
+  color: #e74c3c; 
+  margin-top: auto;  
+  border-top: 1px solid rgba(255,255,255,.1); }
+.menu-lateral a.sair:hover {
+     background: rgba(231,76,60,.1); 
+    border-left-color: #e74c3c;
+ }
+
+.conteudo {
+  flex: 1;
+  margin-left: 260px;
+  padding: 2rem;
+}
+
+.topo { display: flex;
+     justify-content: space-between;
+      margin-bottom: 2rem; 
+      padding-bottom: 1rem;
+     border-bottom: 1px solid #eee; }
+
+ .info { background: #f8f9fa;
+     padding: 1rem 1.5rem;
+     border-radius: 8px;
+     color: #555;
+     font-size: .9rem; 
+    margin-bottom: 1.5rem; }
