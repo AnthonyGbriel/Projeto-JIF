@@ -24,15 +24,6 @@
         </p>
     </div>
 
-    <script>
-        document.getElementById('formLogin').addEventListener('submit', function(e) {
-            e.preventDefault();
-            const email = document.getElementById('email').value;
-            const senha = document.getElementById('senha').value;
-            if (email && senha) {
-                window.location.href = 'menu.html?email=' + encodeURIComponent(email);
-            }
-        });
-    </script>
 </body>
+<script src="script.js"></script>
 </html>
