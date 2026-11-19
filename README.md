@@ -7,9 +7,9 @@ Estamos desenvolvendo um sistema de Jogos internos entre equipe tendo como objet
 
 # Equipe 4: 
 
-*aluno: Anderson Santos Feijó*
-*aluno: Anderson Oliveira dos Santos*
-*aluno: Anthony Gabriel Leite Medeiros da Costa*
+*aluno: Anderson Santos Feijó*\
+*aluno: Anderson Oliveira dos Santos*\
+*aluno: Anthony Gabriel Leite Medeiros da Costa*\
 
 
 oque está faltando:
